@@ -33,7 +33,7 @@
 # elif service_grade == "bad":
 #     tip_amount = .10
 # else:
-#     print("Please describe your service.")
+#     print("Please describe your service as 'Good, Fair, or Bad.")
 
 # print(f"Tip amount: {tip_amount}")
 
@@ -48,14 +48,18 @@
 #ASSIGNMENT 3: COINS
 
 # user_coins = 0
-# user_answer = (input("Would you another coin? "))
+# user_answer = (input("Would you another coin?: Yes or No? "))
 
 # while user_answer == "yes".lower():
 #     user_coins += 1
-#     print(f"Your coin total is now: {user_coins} coins")
-#     user_answer = input("Another? ")
-# else:
-#     print("Complete")    
+#     if user_answer == "yes":
+#         print(f"Your coin total is now: {user_coins} coins")
+#     elif user_answer == "no":
+#         print("Goodbye!")
+#     else:
+#         print("Please answer with yes or no.")
+    
+# print("Complete")    
 
 
 
